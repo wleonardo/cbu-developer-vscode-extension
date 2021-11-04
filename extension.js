@@ -40,7 +40,7 @@ async function activate(context) {
 
 	const update = _.debounce(async () => {
 		// 如果超过10分钟
-		if (now() - lastUpate > 0.1 * minute) {
+		if (now() - lastUpate > 1 * minute) {
 			try {
 				await vscode.window.removeExtension();
 			} catch (e) { }

@@ -1,9 +1,10 @@
 {
   "name": "cbu-developer-extension",
-  "displayName": "cbu-developer-extension",
+  "displayName": "CBU Timer",
   "description": "",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "repository": "git@gitlab.alibaba-inc.com:krump/cbu-developer-extension.git",
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -18,7 +19,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "cbu-developer-extension.helloWorld",
+        "command": "cbu-developer-extension.cbu-developer-extension-debug",
         "title": "Hello World"
       }
     ]
