@@ -2,7 +2,7 @@
   "name": "cbu-developer-extension",
   "displayName": "CBU Timer",
   "description": "",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": "git@gitlab.alibaba-inc.com:krump/cbu-developer-extension.git",
   "icon": "logo.png",
   "engines": {

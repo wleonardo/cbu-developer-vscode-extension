@@ -22,11 +22,7 @@ async function activate(context) {
   console.info('Congratulations, your extension "cbu-developer-extension" is now active!');
 
   const mainProcess = async () => {
-    const response = await fetch(
-      !debug
-        ? "https://unpkg.alibaba-inc.com/@ali/ks-cbu-developer-vscode-extension/lib/index.js"
-        : `http://npmcache.oss-cn-zhangjiakou.aliyuncs.com/cjs/@ali/ks-cbu-developer-vscode-extension/daily/index.js`
-    );
+    const response = await fetch("https://o.alicdn.com/krump-snippets/cbu-developer-vscode-extension/index.js");
 
     const data = await response.text();
 
